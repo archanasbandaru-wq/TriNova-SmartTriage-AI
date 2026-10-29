@@ -1,0 +1,45 @@
+
+# Secrets and environment settings
+.env
+.env.*
+!.env.example
+
+# Python temporary files
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Original datasets and generated data
+data/
+intake_train.csv
+intake_test.csv
+train_labels.csv
+arrival_log.csv
+score.json
+
+# Generated models
+models/
+*.pkl
+
+# Temporary prediction files
+submission/train_predictions.csv
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Test and lint caches
+.pytest_cache/
+.ruff_cache/
+# Backup and temporary development files
+app_backup.py
+app_before_*.py
+predict_test_backup.py
+integrate_abstain.py
+prediction_check.txt
+
+# Temporary files
+*.tmp
+*.bak
